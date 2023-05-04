@@ -53,3 +53,11 @@ main > div:hover {
   background-color: #ece0fd;
   border-radius: 8px;
 }
+
+main > div.active {
+  background: #6200ee;
+  border-radius: 8px;
+  font-weight: 700;
+  color: #fff;
+}
+

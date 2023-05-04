@@ -16,8 +16,11 @@ const months = [
 function render() {
   let output = "";
 
+  const thisMonth = months[new Date().getMonth()];
+
   for (let month of months) {
-    output += `<div>${month}</div>`;
+    const active = thisMonth == month ? "active" : "";
+    output += `<div class="${active}">${month}</div>`;
   }
 
   return output;
