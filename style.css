@@ -25,3 +25,15 @@ body {
   border-radius: 16px;
   width: fit-content;
 }
+
+#app {
+  display: grid;
+  grid-template-rows: 40px 1fr;
+  gap: 24px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
