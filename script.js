@@ -13,4 +13,14 @@ const months = [
   "Dez",
 ];
 
-function render() {}
+function render() {
+  let output = "";
+
+  for (let month of months) {
+    output += `<div>${month}</div>`;
+  }
+
+  return output;
+}
+
+app.querySelector("main").innerHTML = render();
