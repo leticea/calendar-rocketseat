@@ -27,3 +27,4 @@ function render() {
 }
 
 app.querySelector("main").innerHTML = render();
+app.querySelector("header span").innerHTML = new Date().getFullYear();
