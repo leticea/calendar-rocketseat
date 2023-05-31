@@ -11,7 +11,7 @@
   <img alt="" src=".github/image.png">
 </p>
 
-## Date Picker
+# Date Picker
 
 ## 🚀 Tecnologias
 
@@ -124,6 +124,12 @@ Projetos #boraCodar da [Rocketseat](https://boracodar.dev/).
       <td>Contact List</td>
       <td>26/04/23</td>
       <td><a href="https://github.com/leticea/contact-list-rocketseat">🔗</a></td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>The — !Abstract Gallery</td>
+      <td>24/05/23</td>
+      <td><a href="https://github.com/leticea/abstract-gallery">🔗</a></td>
     </tr>
   </tbody>
 </table>
